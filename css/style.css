@@ -1,0 +1,43 @@
+@import "./normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+:root{
+    
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --Light-red: hsl(0, 100%, 63%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --very-pale-blue: hsl(207, 100%, 98%);
+}
+
+h1,h2,h3,h4{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+}
+
+/* Text  */
+.text {
+    text-align: center;
+}
+.text--small {
+    margin-top: 4rem;
+}
+.text--big {
+    margin-top: 10rem;
+}
+.text__heading {
+    margin-top: 0;
+    font-size: 3.2rem;
+}
