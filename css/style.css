@@ -132,3 +132,12 @@ h1,h2,h3,h4{
     width: 100%;
     padding-top: 3.5rem;
 }
+
+
+/* Huddle  */
+.huddle {
+    margin-top: 7rem;
+}
+.huddle img {
+    color: var(--white);
+}
