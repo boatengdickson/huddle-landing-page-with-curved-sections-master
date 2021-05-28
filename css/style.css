@@ -20,6 +20,7 @@ body{
     --Light-red: hsl(0, 100%, 63%);
     --very-dark-cyan: hsl(192, 100%, 9%);
     --very-pale-blue: hsl(207, 100%, 98%);
+    --white: #fff;
 }
 
 h1,h2,h3,h4{
@@ -40,4 +41,39 @@ h1,h2,h3,h4{
 .text__heading {
     margin-top: 0;
     font-size: 3.2rem;
+}
+
+
+/* Button  */
+.button {
+    border: 0;
+    cursor: pointer;
+}
+.button--round {
+    padding: 1.5rem 10rem;
+    background: var(--pink);
+    color: var(--white);
+    border-radius: 3rem;
+}
+.button--center {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+.button--shadow {
+    box-shadow: 2px 3px 12px 2px rgba(0,0,0,0.2);
+}
+.button--outline {
+    background: none;
+    border: 2px solid var(--light-pink);
+    color: var(--pink);
+    padding: 0.8rem 4rem;
+    border-radius: 3rem;
+}
+.button--square {
+    background: var(--pink);
+    padding: 1.5rem 6rem;
+    font-weight: 500;
+    color: var(--white);
+    border-radius: 0.6rem;
 }
