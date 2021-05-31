@@ -28,6 +28,11 @@ h1,h2,h3,h4{
     font-weight: 700;
 }
 
+/* Container  */
+.container {
+    margin: auto 2rem;
+}
+
 
 /* Text  */
 .text--center {
@@ -52,9 +57,11 @@ h1,h2,h3,h4{
 .button {
     border: 0;
     cursor: pointer;
+    font-weight: 600;
+    outline: none;
 }
 .button--round {
-    padding: 1.5rem 10rem;
+    padding: 1.5rem 1rem;
     background: var(--pink);
     color: var(--white);
     border-radius: 3rem;
@@ -64,16 +71,21 @@ h1,h2,h3,h4{
     justify-content:center;
     width: 100%;
 }
+.button--round-center {
+    width: 50vw;
+    margin: auto;
+}
 .button--shadow {
     box-shadow: 2px 3px 12px 2px rgba(0,0,0,0.2);
 }
 .button--outline {
-    width: 25vw;
+    width: 35vw;
     background: none;
     border: 2px solid var(--pink);
     color: var(--pink);
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 0.5rem;
     border-radius: 3rem;
+    
 }
 .button--outline:hover {
     color: var(--white);
@@ -82,13 +94,25 @@ h1,h2,h3,h4{
 .button--square {
     background: var(--pink);
     padding: 1.5rem 6rem;
-    font-weight: 500;
     color: var(--white);
     border-radius: 0.6rem;
+    margin-top: 2rem;
+}
+.button--square:hover, .button--round:hover {
+    background: var(--light-pink);
 }
 
 
 /* Ratings */
+.rating {
+    margin-top: 7rem;
+}
+.ratings {
+    margin-bottom: 8rem;
+}
+.ratings__paragraph {
+    text-align: center;
+}
 .ratings--center {
     display: flex;
     justify-content: center;
@@ -114,7 +138,6 @@ h1,h2,h3,h4{
 
 /* Social  */
 .social {
-    background: red;
     color: var(--white);
 }
 .social__one, .social__two {
@@ -135,7 +158,10 @@ h1,h2,h3,h4{
 /* Search  */
 .search {
     width: 100%;
-    padding-top: 3.5rem;
+    padding-top: 3rem;
+    outline: 0;
+    border-radius: 0.8rem;
+    border: 0;
 }
 
 
@@ -145,6 +171,7 @@ h1,h2,h3,h4{
 }
 .huddle img {
     color: var(--white);
+    width: 50%;
 }
 
 
@@ -153,8 +180,45 @@ h1,h2,h3,h4{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 1rem;
+    margin: 2rem 0;
 }
 .logo {
     width: 30vw;
+}
+
+
+/* Hero  */
+.hero .button {
+    margin-top: 4rem;
+}
+.hero__mockup {
+    width: 100%;
+    margin-top: 10rem;
+}
+
+/* Media  */
+.medium {
+    margin-bottom: 20rem;
+}
+.medium__image {
+    width: 100%;
+}
+.medium--background {
+    width: 100%;
+    background: url("../images/bg-section-top-mobile-1.svg");
+    background-position: top bottom;
+    background-size: cover;
+}
+
+
+/* Herob  */
+.herob {
+    margin-bottom: 15rem;
+}
+
+
+/* Footer  */
+.footer {
+    background: var(--very-dark-cyan);
+    color: var(--white);
 }
